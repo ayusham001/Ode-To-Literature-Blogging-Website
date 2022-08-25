@@ -1,0 +1,106 @@
+  #navigation{
+  position: fixed;
+  }
+
+  .topnav {
+  background-color: rgb(251, 251, 251);
+  overflow: hidden;
+  position: fixed;
+  width: 1600;
+  top:0;
+  }
+  .topnav a {
+  float: left;
+  color: #767676;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  }
+
+  .topnav a:hover {
+  background-color: rgb(200, 200, 200);
+  color: black;
+  }
+.topnav a:active {
+  color: rgb(0, 0, 0);
+}
+.imgs{
+  margin-left: 260;
+  margin-top: 100;
+}
+#ggm{
+  width: 350;
+  height: 550;
+  border-radius: 7%;
+}
+#fare{
+  width: 350;
+  height: 550;
+  border-radius: 7%;
+}
+#wai{
+  width: 350;
+  height: 550;
+  border-radius: 7%;
+}
+a{
+  text-decoration: none;
+}
+#curvec{
+  margin-left:none;
+  background-image: url("curve.png");
+  background-repeat: no-repeat;
+  width: 1570;
+  text-align: center;
+}
+#t3i{
+  font-size: 30;
+}
+#nwsl{
+  font-size: 40;
+}
+#nwsle{
+  font-size: 20;
+}
+#etb{
+  text-align: center;
+  font-size: 20;
+  border-style: groove;
+  border-radius: 100px;
+  height: 50;
+  width: 300;
+}
+#sub{
+  text-align: center;
+  font-size: 20;
+  border-radius: 100px;
+  height: 50;
+  width: 100;
+}
+#dgn{
+  font-size: 40;
+}
+#dgnd{
+  font-size: 20;
+}
+
+#etb2{
+  text-align: center;
+  font-size: 20;
+  border-style: groove;
+  border-radius: 100px;
+  height: 50;
+  width: 300;
+}
+#sub2{
+  text-align: center;
+  font-size: 20;
+  border-radius: 100px;
+  height: 50;
+  width: 100;
+}
+#downnws{
+  text-align: center;
+  background-color: #d7d6d6;
+}
