@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Contact us</title>
+        <style>
+            .body2{
+                font-family: arial;
+            }
+            #glo{
+                background-image: url('nlbg.jpg');
+                margin-top: 100px;
+                border-radius: 15px;
+                border: 1px solid rgba(255,255,255,0.8);
+                box-shadow: 2px 2px 15px;
+                width: 30%;
+                margin-left: auto;
+                margin-right: auto;  
+            }
+            #head{
+                font-size: 30;
+                text-align: center;
+            }
+            input{
+                text-align: start;
+                font-size: medium;
+                padding: 5;
+            }
+            #ftable{
+                height: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #name{
+                width: 400px;
+                height: 50px;
+                padding: 15px;
+                border-radius: 35px;
+                border-style: solid;
+            }
+            #email{
+                width: 400px;
+                height: 50px;
+                border-radius: 35px;
+                padding: 15px;
+                border-style:solid;
+            }
+            #phone{
+                width: 400px;
+                height: 50px;
+                border-radius: 35px;
+                border-style:solid;
+                padding: 15px;
+            }
+            #message{
+                width: 400px;
+                border-radius: 35px;
+                border-style: solid;
+                resize: none;
+                padding: 15px;
+                font-size: 15px;
+            }
+            #send{
+                width: 100px;
+                height: 50px;
+                border-radius: 35px;
+                color: white;
+                text-align: center;
+                background-color: rgb(0, 0, 0);
+            }
+        </style>
+    <link rel="stylesheet" href="av.css">
+    </head>
+    <body class="body1">
+        <div class="navbar">
+            <a href="av.htm">Home</a>
+            <a href="newsl.html">Newsletter</a>
+            <div class="dropdown">
+              <button class="dropbtn">Self
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="alls.html">All Self</a>
+                <a href="poem.html">Poems</a>
+                <a href="reviews.htm">Book Reviews</a>
+              </div>
+            </div>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <p id="navtext">Ode to Literature</p>
+          </div>
+    </body>
+    <body class="body2">
+        <div id="glo">
+            <br><p id="head">SEND US A MESSAGE</p>
+            <div id="form">
+                <form action="av.htm">
+                <table id="ftable">
+                    <tr><th><input type="text" placeholder="Full Name" id="name" required></th></tr>
+                    <tr><th><input type="email" placeholder="E-Mail" id="email" required></th></tr>
+                    <tr><th><input type="number" placeholder="Phone" id="phone" required></th></tr>
+                    <tr><th><textarea placeholder="Your Message" id="message" required rows="10"></textarea></th></tr>
+                    <tr><th><input type="submit" id="send"></a></th></tr>
+                </table>
+                </form>
+            </div>
+    </div>
+    </body>
+</html>
